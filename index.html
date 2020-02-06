@@ -14,7 +14,7 @@
 
 <body id="home" data-spy="scroll" data-target="#main-nav">
   <!-- START HERE -->
-  <nav id="main-nav" class="navbar navbar-expand-md navbar-light fixed-top text-right py-4">
+  <nav id="main-nav" class="navbar navbar-expand-md navbar-light fixed-top text-right py-4 smooth-scroll">
     <div class="container">
       <a href="#home" class="navbar-brand">
         <img src="img/mlogo.png" width="50" height="50" alt="">
@@ -43,7 +43,7 @@
   </nav>
 
   <!-- SHOWCASE AREA -->
-  <section id="showcase" class="py-5">
+  <section id="showcase" class="py-5 smooth-scroll">
     <div class="primary-overlay text-white">
       <div class="container">
         <div class="row">
@@ -137,8 +137,8 @@
         <div class="col">
           <div class="info-header mb-5">
             <h1 class="text-primary">Why This Book?</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt dolorum ipsam recusandae necessitatibus
-              placeat neque.</p>
+            <p>The authors disclose their specialised knowledge about the human brain and its processes in an
+              understandable manner.</p>
           </div>
 
           <!-- ACCORDION -->
@@ -153,10 +153,10 @@
                 </h5>
               </div>
               <div id="collapse1" class="collapse show">
-                <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis ab voluptate
-                  magni nam aliquam exercitationem dolor quae earum harum nostrum at, ratione expedita doloremque error
-                  fugiat libero? Optio recusandae ad officia nihil exercitationem nemo? Alias dolor quod veritatis
-                  deleniti fuga obcaecati magnam neque, unde molestias corporis. Ut fuga sit tenetur!</div>
+                <div class="card-body">The authors offer easy to follow instructions. The book provides exercise
+                  routines for easy integration in your day. The inspirational writing style gets readers to reach a
+                  deeper knowledge and
+                  understanding of psychological processes.</div>
               </div>
             </div>
 
@@ -169,10 +169,10 @@
                 </h5>
               </div>
               <div id="collapse2" class="collapse">
-                <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis ab voluptate
-                  magni nam aliquam exercitationem dolor quae earum harum nostrum at, ratione expedita doloremque error
-                  fugiat libero? Optio recusandae ad officia nihil exercitationem nemo? Alias dolor quod veritatis
-                  deleniti fuga obcaecati magnam neque, unde molestias corporis. Ut fuga sit tenetur!</div>
+                <div class="card-body">Assess new insights and clear to pursue guidelines to ease your mind of
+                  your daily strains. It provides recommendations to confront emotions that are holding you back. We
+                  explain based on fundamental reasearch how our mind can be reliefed by spending time with yourself and
+                  your mind a few minutes daily.</div>
               </div>
             </div>
 
@@ -186,10 +186,9 @@
               </div>
 
               <div id="collapse3" class="collapse">
-                <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis ab voluptate
-                  magni nam aliquam exercitationem dolor quae earum harum nostrum at, ratione expedita doloremque error
-                  fugiat libero? Optio recusandae ad officia nihil exercitationem nemo? Alias dolor quod veritatis
-                  deleniti fuga obcaecati magnam neque, unde molestias corporis. Ut fuga sit tenetur!</div>
+                <div class="card-body">Find guidance and take advice to get rid of feelings of beeing stuck or
+                  overwhelmed and learn how to actively influence your thoughts. Get introduced to meditation techniques
+                  to open your mind and reach tranquility.</div>
               </div>
             </div>
           </div>
@@ -321,8 +320,7 @@
               <h3>Lukas Jarvis</h3>
               <h5 class="text-muted">Designer</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor minima ab libero similique
-                necessitatibus voluptates.
+                Lukas is a studied Designer. He passionatly advocates design as an art to make the worl a better place.
               </p>
               <!-- social media icons -->
               <div class="d-flex justify-content-center">
@@ -434,7 +432,7 @@
     });
 
     // Add smooth scrolling
-    $('#main-nav, #showcase a').on('click', function (e) {
+    $('.smooth-scroll a').on('click', function (e) {
       // Check for a hash value: #home, #about, ...
       // if the link that is clicked is not equeal to an empty string
       if (this.hash !== '') {

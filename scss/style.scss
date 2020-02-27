@@ -32,9 +32,13 @@ body {
 }
 
 .info-header {
-  width: 50%;
+  width: 100%;
   margin: auto;
   border-bottom: 1px #ddd solid;
+
+  @media(min-width: 992px) {
+    width: 50%;
+  }
 }
 
 #authors {
